@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina Consells</title>
+    <link rel="stylesheet" href="projecteM12_3.css">
+</head>
+<body>
+    <header>
+        <h1>Consells per aprendre HTML5 i CSS3</h1>
+        <nav>
+            <ul>
+                <li><a href="projecteM12.html">Inici</a></li>
+                <li><a href="projecteM12_2.html">Pràctiques</a></li>
+                <li><a href="projecteM12_3.html">Consells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="consells">
+        <h2>Consells per millorar en el món de la programació</h2>
+        <p>Aquests són alguns consells per millorar les teves habilitats en HTML5 i CSS3:</p>
+        <ul>
+            <li>Practica creant pàgines senzilles amb diferents estructures.</li>
+            <li>Utilitza etiquetes per organitzar el contingut.</li>
+            <li>Experimenta amb CSS per entendre com funcionen els estils.</li>
+            <li>Revisa els teus projectes per millorar-los i aplicar noves tècniques.</li>
+        </ul>
+        <p><a href="projecteM12.html">Tornar a la pàgina principal</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Curs HTML5 i CSS3. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
+
+css:
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section#consells {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section#consells h2 {
+    color: blue;
+}
+
+section#consells p, section#consells ul {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
