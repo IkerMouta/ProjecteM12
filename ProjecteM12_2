@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pràctiques Realitzades</title>
+    <link rel="stylesheet" href="projecteM12_2.css">
+</head>
+<body>
+    <header>
+        <h1>Pràctiques realitzades durant el Curs HTML5 y CSS3</h1>
+        <nav>
+            <ul>
+                <li><a href="projecteM12.html">Inici</a></li>
+                <li><a href="projecteM12_2.html">Pràctiques</a></li>
+                <li><a href="projecteM12_3.html">Consells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="pràctiques">
+        <h2>Pràctiques realitzades durant el curs de HTML5 i CSS3</h2>
+        <ul>
+            <li><a href="formularios.html">Formularis</a></li>
+            <li><a href="imagenes_enlaces.html">Imatges i Enllaços</a></li>
+            <li><a href="listas.html">Llistes</a></li>
+            <li><a href="tablas.html">Taules</a></li>
+        </ul>
+        <p><a href="projecteM12.html">Tornar a la pàgina principal</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Curs HTML5 i CSS3. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
+
+css:
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section#pràctiques {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section#pràctiques h2 {
+    color: blue;
+}
+
+section#pràctiques p, section#pràctiques ul {
+    color: red;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
