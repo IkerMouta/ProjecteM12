@@ -18,8 +18,6 @@
         </nav>
     </header>
 
-
-css:
     <section id="principal">
         <h2>Benvingut al meu projecte de HTML5 i CSS3</h2>
         <p>Aquesta pàgina serveix com a punt de inici per accedir a les altres pàgines del projecte.</p>
@@ -36,6 +34,7 @@ css:
 </body>
 </html>
 
+css:
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fafafa;
