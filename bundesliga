@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bundesliga.css">
+    <title>Classificació Bundesliga</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Classificació Bundesliga</h1>
+            <nav>
+                <ul>
+                    <li><a href="ligas.html">Tornar a Lligues</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content">
+            <h2>Bundesliga</h2>
+            <table class="league-table">
+                <thead>
+                    <tr>
+                        <th>Posició</th>
+                        <th>Equip</th>
+                        <th>Punts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Bayern de Múnich</td><td>86</td></tr>
+                    <tr><td>2</td><td>Bayer Leverkusen</td><td>78</td></tr>
+                    <tr><td>3</td><td>Borussia Dortmund</td><td>73</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Notícies de Futbol. Tots els drets reservats.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+css:
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header, footer {
+    background-color: #1f1f1f;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #ff9800;
+    color: #121212;
+}
+
+.content {
+    padding: 2rem 0;
+}
+
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.league-table th, .league-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.league-table th {
+    background-color: #ff9800;
+    color: #121212;
+}
+
+.league-table tr:hover {
+    background-color: #333;
+}
